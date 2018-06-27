@@ -22,13 +22,13 @@ chmod +x *.sh
 echo "Running dfr.sh by ExecuteMalware"
 ./dfr.sh
 
-Modify Sql Database location
-Line NAME:
-/opt/dionaea/var/dionaea/dionaea.sqlite
+#Modify Sql Database location
+#Line NAME:
+#/opt/dionaea/var/dionaea/dionaea.sqlite
 
-Add Virus total API Key:
-cp /opt/dionaea/etc/ihandlers-available/virustotal.yaml /opt/dionaea/etc/ihandlers-enabled/virustotal.yaml
+#Add Virus total API Key:
+#cp /opt/dionaea/etc/ihandlers-available/virustotal.yaml /opt/dionaea/etc/ihandlers-enabled/virustotal.yaml
 
-service dionaea restart
-./start_dfr.sh type yes when asked 
+#service dionaea restart
+#./start_dfr.sh type yes when asked 
 
